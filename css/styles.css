@@ -43,7 +43,7 @@ font-family: 'Six Caps', sans-serif;
 
 
 header{
-  background-color: black;
+  background-color: #F7FDB1;
   color: white;
   height: 40px;
   margin-bottom: 0;
@@ -55,7 +55,7 @@ header{
 }
 
 .headerBtn{
-  background-color: Black;
+  background-color: #DED473;
   border-color: blue;
   border-radius: 8%;
   font-family: 'Special Elite', cursive, monospace;
@@ -181,7 +181,7 @@ header{
 }
 
 .bottomDiv {
-  background-color: black;
+  background-color: #DED473;
   color: white;
   font-family: monospace;
   height: 40px;
