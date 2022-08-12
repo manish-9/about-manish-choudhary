@@ -56,7 +56,7 @@ header{
 
 .headerBtn{
   background-color: #DED473;
-  border-color: blue;
+  border-color: #FFB3B3;
   border-radius: 8%;
   font-family: 'Special Elite', cursive, monospace;
   color: white;
@@ -65,7 +65,7 @@ header{
 }
 
 .topDiv {
-  background-color: #69BFBF;
+  background-color: #B9EBFF;
   margin-right: 0;
   position: relative;
   top: 60px;
