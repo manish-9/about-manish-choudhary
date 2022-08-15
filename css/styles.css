@@ -1,28 +1,28 @@
 body {
-  color: #40514E;;
+  color: #40514e;
   font-family: serif;
   margin: 0;
   text-align: center;
 }
 
-p{
+p {
+  font-size: 1.2rem;
   line-height: 2;
 }
 
 a {
   color: grey;
   text-decoration: none;
+  padding: 8px;
 }
 
-hr{
+hr {
   border-width: 6px;
   border-style: dotted none none none;
-  color: #EAE6B6;
-  margin: 70px auto;
+  color: #eae6b6;
+  margin: 60px auto;
   width: 4%;
-
 }
-
 
 /*
 font-family: 'Six Caps', sans-serif;
@@ -41,12 +41,10 @@ font-family: 'Six Caps', sans-serif;
     font-family: 'Cabin Sketch', cursive;
 */
 
-
-header{
-  background-color: #F7FDB1;
+header {
+  background-color: black;
   color: white;
-  height: 40px;
-  margin-bottom: 0;
+  height: 50px;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -54,22 +52,30 @@ header{
   left: 0;
 }
 
-.headerBtn{
-  background-color: #DED473;
-  border-color: #FFB3B3;
+.headerBtn {
+  background-color: Black;
+  border-color: rgba(77, 77, 82, 0.911);
   border-radius: 8%;
-  font-family: 'Special Elite', cursive, monospace;
+  font-family: "Special Elite", cursive, monospace;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .topDiv {
-  background-color: #B9EBFF;
+  background-color: #69bfbf;
   margin-right: 0;
   position: relative;
-  top: 60px;
-  padding-top: 100px;
+  top: 50px;
+  padding-top: 166px;
+}
+
+.topDivImg {
+  margin-top: 5px;
+}
+
+.mountainImg {
+  height: 360px;
 }
 
 .middleDiv {
@@ -82,37 +88,37 @@ header{
   transition: 5s all ease;
 }
 
-.midHeading{
-    color: #16817a;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 10px;
+.midHeading {
+  color: #16817a;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
-#profileImg{
+#profileImg {
   border-radius: 50%;
   overflow: hidden;
-  transition: 0.5s all ease-in;
+  transition: 0.3s all ease-in;
   width: 14%;
 }
 
-#profileImg:hover{
+#profileImg:hover {
   padding: 100px;
   transform: scale(1.3);
 }
 
-
-.skill-row{
+.skill-row {
   letter-spacing: 1px;
   margin: 100px auto;
   text-align: left;
   width: 50%;
 }
 
-.skillImg1{
+.skillImg1 {
   float: left;
   padding-inline-end: 30px;
   width: 25%;
+  padding-top: 15px;
 }
 
 /* .skillPara1{
@@ -120,7 +126,7 @@ header{
   clear: left;
 }
  */
-.skillImg2{
+.skillImg2 {
   float: right;
   padding-inline-start: 30px;
   width: 25%;
@@ -135,31 +141,31 @@ header{
   
 }
  */
-.contactPara{
+.contactPara {
   margin: 40px auto;
-  width: 30%;  
+  width: 30%;
 }
 
 .contactBtn {
-  background: #18A59C;
-  background-image: -webkit-linear-gradient(top, #18A59C, #37AFA7);
-  background-image: -moz-linear-gradient(top, #18A59C, #37AFA7);
-  background-image: -ms-linear-gradient(top, #18A59C, #37AFA7);
-  background-image: -o-linear-gradient(top, #18A59C, #37AFA7);
-  background-image: linear-gradient(to bottom, #18A59C, #37AFA7);
+  background: #18a59c;
+  background-image: -webkit-linear-gradient(top, #18a59c, #37afa7);
+  background-image: -moz-linear-gradient(top, #18a59c, #37afa7);
+  background-image: -ms-linear-gradient(top, #18a59c, #37afa7);
+  background-image: -o-linear-gradient(top, #18a59c, #37afa7);
+  background-image: linear-gradient(to bottom, #18a59c, #37afa7);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  color: #FFFFFF;
-  font-family: 'Lucida Grande', sans-serif;
+  color: #ffffff;
+  font-family: "Lucida Grande", sans-serif;
   font-size: 16px;
   font-weight: 300;
   padding: 12px;
-  box-shadow: 1px 1px 7px 0px #0059A0;
-  -webkit-box-shadow: 1px 1px 7px 0px #0059A0;
-  -moz-box-shadow: 1px 1px 7px 0px #0059A0;
+  box-shadow: 1px 1px 7px 0px #0059a0;
+  -webkit-box-shadow: 1px 1px 7px 0px #0059a0;
+  -moz-box-shadow: 1px 1px 7px 0px #0059a0;
   text-shadow: 0px 0px 31px #000000;
-  border: solid #189A92 1px;
+  border: solid #189a92 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -167,13 +173,13 @@ header{
 }
 
 .contactBtn:hover {
-  border: solid #337FED 1px;
-  background: #1D9EAD;
-  background-image: -webkit-linear-gradient(top, #1D9EAD, #1BBEB5);
-  background-image: -moz-linear-gradient(top, #1D9EAD, #1BBEB5);
-  background-image: -ms-linear-gradient(top, #1D9EAD, #1BBEB5);
-  background-image: -o-linear-gradient(top, #1D9EAD, #1BBEB5);
-  background-image: linear-gradient(to bottom, #1D9EAD, #1BBEB5);
+  border: solid #337fed 1px;
+  background: #1d9ead;
+  background-image: -webkit-linear-gradient(top, #1d9ead, #1bbeb5);
+  background-image: -moz-linear-gradient(top, #1d9ead, #1bbeb5);
+  background-image: -ms-linear-gradient(top, #1d9ead, #1bbeb5);
+  background-image: -o-linear-gradient(top, #1d9ead, #1bbeb5);
+  background-image: linear-gradient(to bottom, #1d9ead, #1bbeb5);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -181,23 +187,22 @@ header{
 }
 
 .bottomDiv {
-  background-color: #DED473;
+  background-color: black;
   color: white;
   font-family: monospace;
   height: 40px;
   margin-bottom: 0;
-  padding: 10px 0 20px 0;
+  padding: 10px 0 20px 2px;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-
 .heading {
   color: white;
   margin-top: 0;
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
 }
 
 .underline {
@@ -216,7 +221,7 @@ header{
   transition: 3s all ease-in-out;
 }
 
-#cloud1:hover{
+#cloud1:hover {
   transform: scale(1.5);
 }
 
@@ -226,7 +231,6 @@ header{
   transition: 3s all ease-in-out;
 }
 
-#cloud2:hover{
+#cloud2:hover {
   transform: scale(1.5);
 }
-
